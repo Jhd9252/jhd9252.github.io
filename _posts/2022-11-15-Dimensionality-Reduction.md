@@ -15,7 +15,7 @@ There's no surprise that this ideaology has morphed into a technical approach wh
 ## Does this apply to data?
 One may think naively that the more information a model possesses, the better it can make predictions. There is a kernel of truth to that statement. However on the other end, the more irrelevant features we have, the higher the degradation of performance. Termed the **"Curse of Dimensionality"**. 
 
-`![curse]({{ "/assets/img/curse.jpeg" |}})`.
+`![curse]({{ "/assets/img/curse.JPG" |}})`.
 
 Essentially, the higher the number of features, the more sparse the observations become in that exponentially increasing space. This higher *sparsity* leads to loss of predictive power, and higher difficulty in interpreting or visualizing the information. 
 
