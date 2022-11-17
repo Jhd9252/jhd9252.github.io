@@ -37,8 +37,6 @@ In fields with deal with high-dimensional data, **dimensionality reduction** is 
 
 ![globe]({{ "/assets/img/globe.JPG" |}})
 
-![map]({{ "/assets/img/map.JPG" |}})
-
 **Advantages:**
 - Lower training time, lower computational resources used
 - Avoids over-fitting and removal of noise
