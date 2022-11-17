@@ -1,6 +1,8 @@
 ---
 title: Dimensionality Reduction
 date: 2022-11-14
+tags: [Dimensionality Reduction, Feature Extraction, Feature Selection]
+cover-img: [/assets/img/ml.jpg, /assets/img/enter.JPG]
 ---
 
 ---------------------------------------------------------------------------------------------------------
