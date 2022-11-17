@@ -60,7 +60,7 @@ A specific case of dimensionality reduction that keeps the original feature valu
     - E.g. correlation, ANOVA, etc.
 
 - **Wrapper Methods**: Involves searching for well-performing subsets of features, evaluated on a specific model or algorithm. These methods have a higher computational time than filter methods and more prone to over-fitting. 
-    - E.g Backwards Elimination, Forward Selection, etc. 
+    - E.g. Backwards Elimination, Forward Selection, etc. 
 
 - **Intrinsic or Embedded Methods**: Implicitly selects features within the algorithms. 
     - E.g. Lasso, Ridge, decision trees, random forests, etc.
