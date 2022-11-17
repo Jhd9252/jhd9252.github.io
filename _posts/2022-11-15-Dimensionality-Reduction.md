@@ -13,7 +13,7 @@ cover-img: [/assets/img/ml.jpg, /assets/img/enter.JPG]
 On a planet with a radius of 3,958.8 mi, 7 continents and 8 billion people, there exists more information than we know what to do with.
 As we know, data must be *conceptualized*, *measured* by humans and *interpreted* (preferably without bias). Just as we know that not all data is required for a good predication. Horsepower is a good indicator for the top speed of a sportsbike, less so for predicting the driver comfort of a sedan.
 
-There's always been a fundamental perspective of *minimalism*. The idea that there exists more satisfaction with less. Whether this be with lifestyle, work/life balance, social media, etc. 
+There's always been a fundamental perspective of *minimalism*. The idea that there exists more satisfaction with less. Whether this is with lifestyle, work/life balance, social media, etc. 
 
 There's no surprise that this ideology has morphed into a technical approach when it comes to data. *Occam's Razor* states that the less moving parts a model has, the better the general performance. Primarily this concerns the model. Choosing a simple model that fits the data well, will capture more key insights and features without too much noise. Simplicity for general performance. The question is, does this *less is more* approach apply to the data itself?
 
@@ -22,7 +22,7 @@ One may think naively that the more information a model possesses, the better it
 
 ![curse]({{ "/assets/img/curse.JPG" |}})
 
-Essentially, the higher the number of features, the more sparse the observations become in that exponentially increasing space. This higher *sparsity* leads to loss of predictive power, and higher difficulty in interpreting or visualizing the information. 
+Essentially, the higher the number of features, the sparser the observations become in that exponentially increasing space. This higher *sparsity* leads to a loss of predictive power, and higher difficulty in interpreting or visualizing the information. 
 
 
 
@@ -67,7 +67,7 @@ A specific case of dimensionality reduction that keeps the original feature valu
 
 #### Feature Extraction: 
 
-Mapping or projecting from high dimensional space to lower dimensional space (linear or non-linear). Involves a transformation of original data into more signifanct and/or synthetic variables. Generally falls into linear methods, and non-linear methods.
+Mapping or projecting from high dimensional space to lower dimensional space (linear or non-linear). Involves a transformation of original data into more significant and/or synthetic variables. Generally falls into linear methods, and non-linear methods.
 
 - **Linear Methods**: Involves projecting the data into a lower-dimensional space through linear transformation. 
     - E.g. PCA , SVD, etc. 
