@@ -13,7 +13,7 @@ As we know, data must be *conceptualized*, *measured* by humans and *interpreted
 
 There's always been a fundamental perspective of *minimalism*. The idea that there exists more satisfaction with less. Whether this be with lifestyle, work/life balance, social media, etc. 
 
-There's no surprise that this ideaology has morphed into a technical approach when it comes to data. *Occam's Razor* states that the less moving parts a model has, the better the general performance. Primarily this concerns the model. Choosing a simple model that fits the data well, will capture more key insights and features without too much noise. Simplicity for general performance. The question is, does this *less is more* approach apply to the data itself?
+There's no surprise that this ideology has morphed into a technical approach when it comes to data. *Occam's Razor* states that the less moving parts a model has, the better the general performance. Primarily this concerns the model. Choosing a simple model that fits the data well, will capture more key insights and features without too much noise. Simplicity for general performance. The question is, does this *less is more* approach apply to the data itself?
 
 ## Does this apply to data?
 One may think naively that the more information a model possesses, the better it can make predictions. There is a kernel of truth to that statement. However on the other end, the more irrelevant features we have, the higher the degradation of performance. Termed the **"Curse of Dimensionality"**. 
