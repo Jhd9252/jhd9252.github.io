@@ -35,6 +35,10 @@ Having too many features can lead to higher accountancy of variance, which sugge
 ## What can we do? Dimensionality Reduction!
 In fields with deal with high-dimensional data, **dimensionality reduction** is a necessary process to understand. Briefly, it is the process of reducing the features of a given dataset, with the features being the variables (or columns). It's a process to convert higher-dimensional data into a lower-dimensional space while *retaining key insights and original variance*. 
 
+![globe]({{ "/assets/img/globe.JPG" |}})
+
+![map]({{ "/assets/img/map.JPG" |}})
+
 **Advantages:**
 - Lower training time, lower computational resources used
 - Avoids over-fitting and removal of noise
