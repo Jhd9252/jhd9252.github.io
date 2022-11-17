@@ -5,6 +5,9 @@ date: 2022-11-14
 
 ---------------------------------------------------------------------------------------------------------
 ## Minimalism: The Less is More Mentality
+
+![minimalism]({{ "/assets/img/minimalism.jpg" |}})
+
 On a planet with a radius of 3,958.8 mi, 7 continents and 8 billion people, there exists more information than we know what to do with.
 As we know, data must be *conceptualized*, *measured* by humans and *interpreted* (preferably without bias). Just as we know that not all data is required for a good predication. Horsepower is a good indicator for the top speed of a sportsbike, less so for predicting the driver comfort of a sedan.
 
@@ -15,7 +18,7 @@ There's no surprise that this ideaology has morphed into a technical approach wh
 ## Does this apply to data?
 One may think naively that the more information a model possesses, the better it can make predictions. There is a kernel of truth to that statement. However on the other end, the more irrelevant features we have, the higher the degradation of performance. Termed the **"Curse of Dimensionality"**. 
 
-`![curse]({{ "/assets/img/curse.JPG" |}})`.
+![curse]({{ "/assets/img/curse.JPG" |}})
 
 Essentially, the higher the number of features, the more sparse the observations become in that exponentially increasing space. This higher *sparsity* leads to loss of predictive power, and higher difficulty in interpreting or visualizing the information. 
 
