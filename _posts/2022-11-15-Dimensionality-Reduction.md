@@ -3,15 +3,6 @@ title: Dimensionality Reduction
 date: 2022-11-14
 ---
 
-## Add images
-Create an `assets` folder where you can put all your images,
-then display them with a link starting with an exclamative mark like this:
-`![my inspiring image]({{ "/assets/sample-image.jpg" | relative_url }})`.
-
-![my inspiring image]({{ "/assets/sample-image.jpg" | relative_url }})
-_Photo by [Ian Schneider](https://unsplash.com/@goian)_
-Low Dimensional Data vs High Dimensional Data Tradeoffs
-
 ---------------------------------------------------------------------------------------------------------
 ## Minimalism: The Less is More Mentality
 On a planet with a radius of 3,958.8 mi, 7 continents and 8 billion people, there exists more information than we know what to do with.
@@ -72,7 +63,10 @@ Mapping or projecting from high dimensional space to lower dimensional space (li
     - E.g. Kernel PCA, t-SNE, Isomap, etc.
 
 ## Key Take-Aways:
-
+1. More data, does not mean better performance. In fact, excessive features generally degrade performance.
+2. Seek quality features over the quantity of features.
+3. Balance between coverage & sparcity. A complex model will require many predictors, and therefore many more observations. 
+4. Avoid decision paralysis! Part of learning is applying new techniques and drawing conclusions from underlying patterns. Try one method, then another and compare!
 
 
 
