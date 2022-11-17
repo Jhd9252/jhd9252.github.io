@@ -13,7 +13,14 @@ There's always been a fundamental perspective of *minimalism*. The idea that the
 There's no surprise that this ideaology has morphed into a technical approach when it comes to data. *Occam's Razor* states that the less moving parts a model has, the better the general performance. Primarily this concerns the model. Choosing a simple model that fits the data well, will capture more key insights and features without too much noise. Simplicity for general performance. The question is, does this *less is more* approach apply to the data itself?
 
 ## Does this apply to data?
-One may think naively that the more information a model possesses, the better it can make predictions. There is a kernel of truth to that statement. However on the other end, the more irrelevant features we have, the higher the degradation of performance. Termed the **"Curse of Dimensionality"**. Essentially, the higher the number of features, the more sparse the observations become in that exponentially increasing space. This higher *sparsity* leads to loss of predictive power, and higher difficulty in interpreting or visualizing the information. 
+One may think naively that the more information a model possesses, the better it can make predictions. There is a kernel of truth to that statement. However on the other end, the more irrelevant features we have, the higher the degradation of performance. Termed the **"Curse of Dimensionality"**. 
+
+`![my inspiring image]({{ "/assets/sample-image.jpg" |}})`.
+
+Essentially, the higher the number of features, the more sparse the observations become in that exponentially increasing space. This higher *sparsity* leads to loss of predictive power, and higher difficulty in interpreting or visualizing the information. 
+
+
+
 
 Ideally, we want a dataset such that:
 1. There are a high number of observations 
@@ -42,7 +49,6 @@ In fields with deal with high-dimensional data, **dimensionality reduction** is 
 A specific case of dimensionality reduction that keeps the original feature values. 
 
 - **Domain Knowledge**: Manually selecting top the k-th features of a dataset using domain knowledge. Perhaps the conceptualization and operalization of the features in the data are not aligned with the desired metrics someone with the field background would do. 
- 
 - **Filter Methods**: These are generic set of methods that do not require a specific model or algorithm and are usually applied beforehand. As such, they are much faster than wrapper methods, and less prone to over-fitting. 
     - E.g. correlation, ANOVA, etc.
 
